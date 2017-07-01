@@ -7,7 +7,7 @@ This is for web programming practice.
 
 6/29 HTML & CSS Basic (Introduction Page)
 
-7/1 HTML & CSS (Pie Recipe) + github usage
+7/1 HTML & CSS (Pie Recipe) + github usage - git add / commit / push / pull / merge
 
 
 ## Section II: Javascript
