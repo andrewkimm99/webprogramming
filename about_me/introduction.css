@@ -1,0 +1,37 @@
+body{
+	background-color: #E3E3D8  ;
+}
+h1{
+	color: #C43F3F;
+	font-family: georgia;
+	font-size: 35pt;
+	
+	font-weight: 1200;
+	
+}
+h2{
+	font-family: georgia;
+	color: black;
+	font-size: 15pt;
+
+}
+h3, h4, h5, h6{
+	font-family: georgia;
+	color: black;
+	font-size: 12pt;
+	margin: 0px 10px 10px 10px;
+}
+#first, #second, #third, #fourth{
+	border: solid 3px black;
+	margin: 40px;
+	padding: 40px;
+	border-radius: 10px;
+	border-color: gray;
+}
+#firstimg img{
+	margin: 20px;
+}
+#secondimg img{
+	margin: 20px;
+	height: 300px;
+}
