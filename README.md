@@ -7,7 +7,7 @@ This is for web programming practice.
 
 6/29 HTML & CSS Basic (Introduction Page)
 
-7/1 HTML & CSS (Pie Recipe) + github usage - git add / commit / push / pull / merge
+7/1 HTML & CSS ([Pie Recipe](/assignments/pie-recipe.md)) + github usage - git add / commit / push / pull / merge
 
 
 ## Section II: Javascript
@@ -16,11 +16,11 @@ This is for web programming practice.
 
 7/8 Javascript Event listener I (Input and Output practice)
 
-7/12 Color & Javascript Event listener II (Color Code)
+7/12 Color & Javascript Event listener II ([Color Code](/assignments/color-reference.md))
 
-7/15 Timer & Javascript Project (Speed reader)
+7/15 Timer & Javascript Project ([Speed reader](/assignments/speed-reader.md))
 
-7/19 Javascript Project (Fifteen Puzzle)
+7/19 Javascript Project ([Fifteen Puzzle](/assignments/fifteen-puzzle.md))
 
 
 ## Section III: D3 Intro
