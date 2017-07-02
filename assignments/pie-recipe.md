@@ -26,7 +26,7 @@ Names of the four major steps of the recipe directions (such as "Preheat Oven") 
 Choose the picture of the pie using Google and insert it.
 
 
-###Extra features (Try these if you have more time)
+### Extra features (Try these if you have more time)
 
 - The "Home" link should go to your index.html page. Use a relative URL and assume it is located on the same site and directory as pie.html.
 
