@@ -8,6 +8,10 @@ The second part is to recreate a specific web page of a recipe for lemon meringu
 
 You can use [skeleton](https://courses.cs.washington.edu/courses/cse154/16au/homework/1/output/skeleton.txt).
 
+width = 800px
+changes pixel size by readjusting
+
+
 ### Heading
 
 The pie web page's title text should be Grandma's Lemon Meringue Pie . 

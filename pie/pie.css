@@ -1,0 +1,86 @@
+body{
+	width: 800px;
+	margin: auto;
+}
+.center span{
+	font-size: 22pt;
+	color: #A4A400;
+	background-color: #F0F0F0;
+	font-style: Lucida, Helvetica, Arial;
+	text-decoration : underline;
+}
+.container{
+	color:#404040;
+	font-size: 11pt;
+	font-style: georgia;
+	border-bottom: solid 1px black;
+	padding-bottom: 10px;
+	margin: 20px;
+	border-color: black;
+}
+.center{
+	text-align: center;
+}
+.container span{
+	color: #A4A400;
+	background-color: #F0F0F0;
+    font-size: 18pt;
+	font-style: garamond;
+	text-decoration : underline;
+
+}
+
+.container span{
+    font-weight: bold;
+}
+
+
+
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}

@@ -81,3 +81,45 @@ div p.header.main-header {
 	font-size: 24pt;
 }
 
+#firstcontainer, .container{
+	text-align: center;
+	border: solid 2px black;
+	margin-left: auto;
+	margin-right: auto;
+}
+#firstcontainer{
+	height: 400px;
+	width : 400px;
+	padding : 5px;
+}
+.container{
+	height : 185px;
+	margin: 5px;
+}
+#innercontainer1{
+	float: left;
+	width: 15px;
+}
+#innercontainer2{
+	float: right;
+	width: 20px;
+}
+#innercontainer3{
+	clear: both;
+	float: left;
+	width: 20px;
+}
+#innercontainer4{
+	float: right;
+	width: 10px;
+}
+#outercontainer{
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top : 50px;
+	border: solid 2px black;
+	width : 600px;
+}
+
+
