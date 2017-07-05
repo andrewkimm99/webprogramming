@@ -4,7 +4,7 @@ You will create several files related to a recipe web site for a fictional pie c
 
 ## Pie Recipe Page
 
-The second part is to recreate a specific web page of a recipe for lemon meringue pie, stored in a file named pie.html. Unlike index.html, this page must exactly match the appearance specified in this document. 
+Create a specific web page of a recipe for lemon meringue pie, stored in a file named pie.html. Unlike index.html, this page must exactly match the appearance specified in this document. 
 
 You can use [skeleton](https://courses.cs.washington.edu/courses/cse154/16au/homework/1/output/skeleton.txt).
 
@@ -15,7 +15,9 @@ changes pixel size by readjusting
 ### Heading
 
 The pie web page's title text should be Grandma's Lemon Meringue Pie . 
-All headings on the page should use a foreground color of #A4A400 (red=164, green=164, blue=0) and a background color of #F0F0F0 (red=240, green=240, blue=240). The font families for headings are: Lucida Sans Unicode, Helvetica, Arial, or any sans-serif font available on the system (in that order). The page's main heading is aligned to the center of the page body, and uses a 22pt bold font. Other headings on the page are left aligned and appear in an 18pt normal font. All headings should be underlined. 
+
+All headings on the page should use a foreground color of #A4A400 (red=164, green=164, blue=0) and a background color of #F0F0F0 (red=240, green=240, blue=240). The font families for headings are: Lucida Sans Unicode, Helvetica, Arial, or any sans-serif font available on the system (in that order). The page's main heading is aligned to the center of the page body, and uses a 22pt bold font. 
+Other headings on the page are left aligned and appear in an 18pt normal font. All headings should be underlined. 
 
 ### Content
 
@@ -28,7 +30,7 @@ Names of the four major steps of the recipe directions (such as "Preheat Oven") 
 Choose the picture of the pie using Google and insert it.
 
 
-###Extra features (Try these if you have more time)
+### Extra features (Try these if you have more time)
 
 - The "Home" link should go to your index.html page. Use a relative URL and assume it is located on the same site and directory as pie.html.
 
