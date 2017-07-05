@@ -13,6 +13,7 @@ This is for web programming practice.
 ## Section II: Javascript
 
 7/5 Javascript Basic (var&function, if, for, while, string array, object) & DOM basic (Insert bird practice)
+**homework** finish pie recipe and main page + html and css for next class. [sample](/assignments/js-prac-sample.png) each div has 600px width, 100px height, 10px margin and 5px border-radius. Other style (color, border color, border width, content ...) is up to you! Also prepare one image you like.
 
 7/8 Javascript Event listener I (Input and Output practice)
 
