@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "urf-8">
+		<title> Javascript Practice </title>
+		<link href = "interactive.css" rel = "stylesheet">
+	</head>
+	<body>
+		<h1> Some HTML elements for interactive webpage! </h1>
+		<a href = "../index/index.html">Click here to go back! </a> <br>
+		<a href = "http://htmlcolorcodes.com/" target ="_blank">Click here to go to ColorCode!</a>
+
+
+		<div id = "firstcontainer">
+			<div id = "firstinner" class = "inner">
+				First name: <br>
+				<input type = "text" id = "firstname" value = "Mickey"> <br>
+				Last name: <br>
+				<input type = "text" id = "lastname" value = "Mouse"><br>
+				<input type = "submit" id = "submit" value = "Submit"> 
+			</div>
+
+			<div id = "secondinner" class = "inner">
+				<p> Result </p>
+				<p class = "result" id = "nameResult">  </p>
+
+			</div>
+		</div>
+
+		<div id = "secondcontainer">
+			<div id = "thirdinner" class = "inner">
+				<input type = "type" id = "name" placeholder = "Your name">	
+				<br>
+				<select id = "cars">
+					<option name = "car" value = "volvo" selected> Volvo </option>
+					<option name = "car" value = "saab"> Saab </option>
+					<option name = "car" value = "fiat"> Fiat </option>
+					<option name = "car" value = "audi"> Audi </option>
+				</select><br>
+
+			<form id = "genders" class = "input">
+				<input type = "radio" name = "gender" value = "male" checked> Male <br>
+				<input type = "radio" name = "gender" value = "female"> Female <br>
+				<input type = "radio" name = "gender" value = "other"> Other <br>
+
+			</form>
+
+			
+				<textarea name = "message" rows = "10" cols = "30"> It is so great to write a message in textarea. Nice to meet you! </textarea> <br>
+				<input type = "submit" id = "click" value = "Click Me!"> 
+
+			</div>
+
+			<div id = "fourthinner" class = "inner">
+				<p class = "result" id = "descriptionresult">  </p>
+
+			</div>
+		</div>
+
+
+
+		<!-- js -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src = "interactive.js"></script>
+	</body>
+</html>

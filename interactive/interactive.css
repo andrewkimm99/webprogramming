@@ -1,0 +1,33 @@
+div {
+	border: solid 2px #666666;
+	margin : 10px;
+	padding: 10px;
+	font-size: 12pt;
+	border-radius: 10px;
+}
+#outer{
+
+}
+input{
+	font-size: 12pt;
+}
+
+#firstcontainer, #secondcontainer{
+	width : 600px;
+	height : 300px;
+}
+.inner{
+	height : 260px;
+	width: 250px;	
+}
+
+#firstinner, #thirdinner{
+	float: left;
+}
+
+#secondinner, #fourthinner{
+	float: right;
+}
+
+	
+

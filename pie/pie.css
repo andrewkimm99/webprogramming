@@ -30,10 +30,29 @@ body{
 
 }
 
-.container span{
+.bold span{
     font-weight: bold;
 }
 
+#paragraphmargin{
+    margin: 0px 40px 0px 40px;
+}
+#yellowbackground{
+    background-color: #FAFAA6;
+    font-style: italic;
+}
+
+ul
+{
+  list-style-image:url("pie-icon.gif");
+}
+
+a{
+    color: #A4A400;
+}
+#copyright{
+    white-space: pre; 
+}
 
 
 
