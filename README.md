@@ -26,17 +26,20 @@ Also, if you have extra time, try [this](/assignments/color-main.png). (html & c
 
 7/15 Timer & Javascript Project ([Speed reader](/assignments/speed-reader.md))
 
-7/19 Javascript Project ([Fifteen Puzzle](/assignments/fifteen-puzzle.md))
+**homework** Finish Color Code & CSS Part of Speed reader
 
+7/19 Speed Reader Continue
+
+7/21 Javascript Project ([Fifteen Puzzle](/assignments/fifteen-puzzle.md))
+
+7/26 Fifteen Puzzle Continue
 
 ## Section III: D3 Intro
 
-7/21 Fifteen Puzzle Wrap Up & D3 Intro - bar graph
+7/28 D3 Intro - bar graph, stacked bar graph, scatter chart (Movie chart practice)
 
-7/26 D3 stacked bar graph, scatter chart (Movie chart practice)
+8/9 D3 with real data (importing csv) and pie chart
 
-7/28 D3 with real data (importing csv) and pie chart
+8/11 D3 Sunburst & decising topic
 
-8/9 D3 Sunburst & decising topic
-
-8/11 D3 Project
+8/19 D3 Project
