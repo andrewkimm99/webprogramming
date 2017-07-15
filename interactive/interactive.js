@@ -47,7 +47,7 @@
 		}
 		else{
 			var description = document.getElementById('descriptionresult');
-			var gender = document.getElementById("genders").gender.value;;
+			var gender = document.getElementById("genders").gender.value;
 
 	
 

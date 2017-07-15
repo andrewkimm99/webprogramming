@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "urf-8">
+		<title> Color Code </title>
+		<link href = "colorcode.css" rel = "stylesheet">
+	</head>
+	<body>
+		<div id = "header">
+			<h1> Some HTML elements for interactive webpage! </h1>
+			<a href = "../index/index.html">Click here to go back! </a> <br>
+			<a href = "http://htmlcolorcodes.com/" target ="_blank">Click here to go to ColorCode!</a>
+		</div>
+
+		<div id = "main">
+
+			<!-- Enter number and insert right answer -->
+			<div id = "math-container">
+				<p>
+					To start Color Code, you need to solve a basic calculation problem <br>
+					Make a problem yourself, and solve it! Then, you can use Color Code!
+				</p>
+				
+				<form id = "ops" class = "input">
+					<input type = "radio" name = "op" value = "+" checked> Plus
+					<input type = "radio" name = "op" value = "-"> Minus
+					<input type = "radio" name = "op" value = "x"> Multiply
+				</form>
+
+				<div id = "math-input">
+					<input type = "text" id = "firstn"> 
+					<span id = "op"> + </span>
+					<input type = "text" id = "secondn"> 
+					<span> = </span>
+					<input type = "text" id = "answer">
+					<input type = "submit" id = "submit-answer" value = "Submit"> 
+				</div>
+
+				
+
+
+			</div>
+
+
+
+
+			<!-- If right answer is put in, show color code-->
+			<div id = "colorcode-container">
+				<span> Number of data classes </span>
+					<select id = "classes">
+					<option name = "car" value = "3" selected> 3 </option>
+					<option name = "car" value = "4"> 4 </option>
+					<option name = "car" value = "5"> 5 </option>
+					<option name = "car" value = "6"> 6 </option>
+					<option name = "car" value = "7"> 7 </option>
+				</select><br>
+				<form id = "ops" class = "input">
+					<input type = "radio" name = "nature" value = "sequential" checked> Sequential
+					<input type = "radio" name = "nature" value = "diverging"> Diverging
+					<input type = "radio" name = "nature" value = "qualitative"> Qualitative
+				</form>
+				<p> Pick a color scheme: </p>
+
+
+			</div>
+
+		
+		</div>
+
+
+
+		<!-- js -->
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src = "math.js"></script>
+		<script src = "colorcode.js"></script>
+	</body>
+</html>
