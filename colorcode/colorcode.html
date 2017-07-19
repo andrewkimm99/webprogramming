@@ -46,25 +46,63 @@
 
 			<!-- If right answer is put in, show color code-->
 			<div id = "colorcode-container">
-				<span> Number of data classes </span>
-					<select id = "classes">
-					<option name = "car" value = "3" selected> 3 </option>
-					<option name = "car" value = "4"> 4 </option>
-					<option name = "car" value = "5"> 5 </option>
-					<option name = "car" value = "6"> 6 </option>
-					<option name = "car" value = "7"> 7 </option>
-				</select><br>
-				<form id = "ops" class = "input">
-					<input type = "radio" name = "nature" value = "sequential" checked> Sequential
-					<input type = "radio" name = "nature" value = "diverging"> Diverging
-					<input type = "radio" name = "nature" value = "qualitative"> Qualitative
-				</form>
-				<p> Pick a color scheme: </p>
+				<div id = "hexnum"></div>
+
+				<div id = "showColor">
+					<div id = "c1"></div>
+					<div id = "c2"></div>
+					<div id = "c3"></div>
+					<div id = "c4"></div>
+					<div id = "c5"></div>
+					<div id = "c6"></div>
+					<div id = "c7"></div>
+
+				</div>
 
 
+				
+
+				<div id = "colorList">
+					<span> <STRONG>Number of data classes</STRONG> </span>
+						<select id = "classes">
+						<option name = "colors" value = "3" selected> 3 </option>
+						<option name = "colors" value = "4"> 4 </option>
+						<option name = "colors" value = "5"> 5 </option>
+						<option name = "colors" value = "6"> 6 </option>
+						<option name = "colors" value = "7"> 7 </option>
+					</select><br>
+					<span> <STRONG>Nature of your data</STRONG> </span>	
+					<div id = "data" class = "input">
+						<input type = "radio" id = "d1" name = "nature" value = "sequential" checked> Sequential
+						<input type = "radio" id = "d2" name = "nature" value = "diverging"> Diverging
+						<input type = "radio" id = "d3" name = "nature" value = "qualitative"> Qualitative
+					</div>
+					<p> <STRONG> Pick a color scheme: </STRONG></p>
+					<div id = "firstColumn">
+						<div id = "r1c1"></div> 
+						<div id = "r1c2"></div> 
+						<div id = "r1c3"></div> 
+						<div id = "r1c4"></div> 
+						<div id = "r1c5"></div> 
+					</div>
+					<div id = "secondColumn">
+						<div id = "r2c1"></div> 
+						<div id = "r2c2"></div> 
+						<div id = "r2c3"></div> 
+						<div id = "r2c4"></div> 
+						<div id = "r2c5"></div> 
+					</div>
+					<div id = "thirdColumn">
+						<div id = "r3c1"></div> 
+						<div id = "r3c2"></div> 
+						<div id = "r3c3"></div> 
+						<div id = "r3c4"></div> 
+						<div id = "r3c5"></div> 
+					</div>
+				</div>
 			</div>
 
-		
+			
 		</div>
 
 
@@ -72,7 +110,9 @@
 		<!-- js -->
 	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src = "color.js"></script>
 		<script src = "math.js"></script>
 		<script src = "colorcode.js"></script>
+
 	</body>
 </html>

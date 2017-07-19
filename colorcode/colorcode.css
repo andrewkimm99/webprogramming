@@ -21,5 +21,43 @@
 }
 
 #colorcode-container{
+	/*
 	display: none;
+	*/
+	width: 500px;
+}
+
+
+#colorList{
+	border: solid 2px black;
+	width: 300px;
+}
+#showColor, #hexnum{
+	border: solid 2px black;
+	float:right;
+	width: 80px;
+	height: 265px;
+	margin: 0px 5px 0px 5px;
+}
+
+
+
+
+#firstColumn, #secondColumn, #thirdColumn{
+	padding: 10px;
+	display: inline-block;
+
+
+
+}
+#r1c1, #r1c2, #r1c3,#r1c4, #r1c5, #r2c1, #r2c2, #r2c3,#r2c4, #r2c5,#r3c1, #r3c2, #r3c3,#r3c4, #r3c5 {
+	border: solid 1px black;
+	width: 25px;
+	height: 25px;
+}
+#c1,#c2,#c3,#c4,#c5,#c6,#c7{
+	clear:both;
+	border: solid 1px black;
+	width: 78px;
+	height: 36px;
 }

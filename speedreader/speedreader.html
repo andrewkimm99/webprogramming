@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "urf-8">
+		<title> SpeedReader </title>
+		<link href = "speedreader.css" rel = "stylesheet">
+	</head>
+	<body>
+		
+		<div id="header">
+			<h1> SpeedReader </h1>
+		</div>
+
+		<div id = "mainContainer">
+
+			<div id = "output">
+			</div>
+
+			<div id="controlContainer">
+				<div id = "playContainer"> 
+					<span> Play Controls: </span><br>
+					<input type = "submit" id = "start" value = "Start">
+					<input type = "submit" id = "stop" value = "Stop"> 
+				</div>
+
+				<div id = "speedContainer">
+					<span> Speed: </span><br>
+					<select id = "speed">
+							<option name = "sp" value = "50"> 50 wpm </option>
+							<option name = "sp" value = "300"> 300 wpm </option>
+							<option name = "sp" value = "350" selected> 350 wpm </option>
+							<option name = "sp" value = "400"> 400 wpm </option>
+							<option name = "sp" value = "450"> 450 wpm </option>
+							<option name = "sp" value = "500"> 500 wpm </option>
+						</select><br>
+				</div>
+
+				<div id = "sizeContainer">
+					<span> Size: </span><br>
+					<form id = "size" class = "input">
+						<input type = "radio" name = "sz" value = "medium" checked> Medium
+						<input type = "radio" name = "sz" value = "big"> Big
+						<input type = "radio" name = "sz" value = "bigger"> Bigger
+
+					</form>
+				</div>
+			</div>
+			<br>
+			<div id = "messageContainer">
+				<span id = "input"> Input Text: </span><br>
+				<textarea id = "message" rows = "10" cols = "100"> </textarea>
+			</div>
+		</div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src = "speedreader.js"></script>
+	</body>
+</html>

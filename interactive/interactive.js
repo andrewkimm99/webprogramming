@@ -5,10 +5,10 @@
 
 	$(initialize);
 
-	function initialize(){
+	
 		var cdbutton = document.getElementById('submit');
 		cdbutton.onclick = changeDescription1;
-		var cdbutton = document.getElementById('click');
+		cdbutton = document.getElementById('click');
 		cdbutton.onclick = changeDescription2;
 	}
 

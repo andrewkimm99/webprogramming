@@ -1,0 +1,40 @@
+
+body{
+	text-align: center;
+	background-color: #c2f0f0;
+}
+#controlContainer{
+	text-align: left;
+	/*max-width: 740px;
+	margin-left:auto; 
+    margin-right:auto;*/
+    display: inline-block;
+}
+#output{
+	border: solid 2px black;
+	height: 130px;
+	background-color: white;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	border-color: #33cccc;
+}
+#playContainer,#speedContainer,#sizeContainer{
+	margin-left:auto; 
+    margin-right:auto;
+	margin: 0px 20px 0px 20px;
+	border: 2px solid black;
+	width: 200px;
+	vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  zoom: 1
+}
+#messageContainer{
+	clear:both;
+	display: inline-block;
+	text-align: left;
+}
+
+

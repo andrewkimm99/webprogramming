@@ -4,6 +4,7 @@ var answer = document.getElementById("answer");
 
 function changeOp(){
 	var op = this.op.value;
+	console.log(op);
 	document.getElementById('op').innerHTML = " "+op+" ";
 }
 
@@ -42,25 +43,6 @@ function checkAnswer(){
 		}
 
 	};
-
-	/*
-
-	int a = 1;
-
-	void f (int a ) {
-		print (a); // 2
-	}
-
-	void main () {
-		f(2);
-		print (a);	// 1
-
-	}
-
-	*/
-
-
-
 	var op = document.getElementById("ops").op.value;
 
 	var isDigit = function(){
@@ -81,7 +63,6 @@ function checkAnswer(){
 	
 	else{
 		alarmMessage("You are incorrect", goBack, goBack);
-		var nigger = "+";
 	}
 
 	
