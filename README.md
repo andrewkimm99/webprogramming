@@ -30,6 +30,8 @@ Also, if you have extra time, try [this](/assignments/color-main.png). (html & c
 
 7/19 Speed Reader Continue
 
+**homework** Finish Color Colde & Fifteen Puzzle - Read spec and put background image in puzzle area.
+
 7/21 Javascript Project ([Fifteen Puzzle](/assignments/fifteen-puzzle.md))
 
 7/26 Fifteen Puzzle Continue
