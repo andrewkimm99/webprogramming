@@ -5,13 +5,38 @@ var color_dict = {
 		  [ '#f1eef6','#bdc9e1','#74a9cf','#2b8cbe','#045a8d']
 	],
 	'div': [
-
+			['#a6611a','#dfc27d','#f5f5f5','#80cdc1','#018571'],
+			['#d01c8b','#f1b6da','#f7f7f7','#b8e186','#4dac26'],
+			['#ca0020','#f4a582','#ffffff','#bababa','#404040']
 	],
-	'qual': [
-
+	'qual':[ 
+			['#7fc97f','#beaed4','#fdc086','#ffff99','#386cb0'],
+			['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00'],
+			['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3']
 	]
-}
+};
 
+var extended_colors = {
+	'seq':[ 
+			['#edf8fb','#ccece6','#99d8c9','#66c2a4','#41ae76','#238b45','#005824'],
+			['#fef0d9','#fdd49e','#fdbb84','#fc8d59','#ef6548','#d7301f','#990000'],
+			['#f1eef6','#d0d1e6','#a6bddb','#74a9cf','#3690c0','#0570b0','#034e7b']
+	],
+	'div':[
+			['#8c510a','#d8b365','#f6e8c3','#f5f5f5','#c7eae5','#5ab4ac','#01665e'],
+			['#c51b7d','#e9a3c9','#fde0ef','#f7f7f7','#e6f5d0','#a1d76a','#4d9221'],
+			['#b2182b','#ef8a62','#fddbc7','#ffffff','#e0e0e0','#999999','#4d4d4d']
+	],
+	'qual':[
+			['#7fc97f','#beaed4','#fdc086','#ffff99','#386cb0','#f0027f','#bf5b17'],
+			['#e41a1c','#377eb8','#4daf4a','#984ea3','#ff7f00','#ffff33','#a65628'],
+			['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69']
+	]
+};
+
+/*
+
+		if(document.getElementById("d1").checked){
 		  document.getElementById("r1c1").style.backgroundColor = '#edf8fb';
 		  document.getElementById("r1c2").style.backgroundColor = '#b2e2e2';
 		  document.getElementById("r1c3").style.backgroundColor = '#66c2a4';
@@ -32,7 +57,7 @@ var color_dict = {
 		 	
 			var columnOne = document.getElementById("firstColumn");
 			columnOne.onclick = myAlert1;
-		}
+		};
 		else if(document.getElementById('d2').checked) {
 		  document.getElementById("r1c1").style.backgroundColor = '#a6611a';
 		  document.getElementById("r1c2").style.backgroundColor = '#dfc27d';
@@ -54,7 +79,7 @@ var color_dict = {
 		  
 			var columnOne = document.getElementById("firstColumn");
 			columnOne.onclick = myAlert2;
-		}
+		};
 		else{
 		  document.getElementById("r1c1").style.backgroundColor = '#7fc97f';
 		  document.getElementById("r1c2").style.backgroundColor = '#beaed4';
@@ -73,4 +98,7 @@ var color_dict = {
 		  document.getElementById("r3c3").style.backgroundColor = '#bebada';
 		  document.getElementById("r3c4").style.backgroundColor = '#fb8072';
 		  document.getElementById("r3c5").style.backgroundColor = '#80b1d3';
-			var columnOne = d
+		};
+
+*/
+

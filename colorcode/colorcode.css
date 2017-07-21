@@ -21,9 +21,8 @@
 }
 
 #colorcode-container{
-	/*
+	
 	display: none;
-	*/
 	width: 500px;
 }
 
@@ -33,7 +32,6 @@
 	width: 300px;
 }
 #showColor, #hexnum{
-	border: solid 2px black;
 	float:right;
 	width: 80px;
 	height: 265px;
@@ -44,7 +42,7 @@
 
 
 #firstColumn, #secondColumn, #thirdColumn{
-	padding: 10px;
+	margin: 10px;
 	display: inline-block;
 
 
@@ -55,9 +53,22 @@
 	width: 25px;
 	height: 25px;
 }
+
+
 #c1,#c2,#c3,#c4,#c5,#c6,#c7{
-	clear:both;
 	border: solid 1px black;
 	width: 78px;
 	height: 36px;
 }
+#n1,#n2,#n3,#n4,#n5,#n6,#n7{
+	width: 78px;
+	height: 36px;
+	text-align: center;
+
+} 
+
+
+
+
+
+

@@ -1,7 +1,3 @@
-var firstNumber = document.getElementById("firstn");
-var secondNumber = document.getElementById("secondn");
-var answer = document.getElementById("answer");
-
 function changeOp(){
 	var op = this.op.value;
 	console.log(op);
@@ -9,8 +5,9 @@ function changeOp(){
 }
 
 function checkAnswer(){
-
-
+	var firstNumber = document.getElementById("firstn");
+	var secondNumber = document.getElementById("secondn");
+	var answer = document.getElementById("answer");
 	// functional lang
 
 	var alarmMessage = function(mess, yesFunc, noFunc) {
@@ -18,7 +15,7 @@ function checkAnswer(){
 			yesFunc();
 		else
 			noFunc();
-	}
+	};
 
 	//shows color code once you get the answer right
 	var goOn = function() {
@@ -46,6 +43,7 @@ function checkAnswer(){
 	var op = document.getElementById("ops").op.value;
 
 	var isDigit = function(){
+
 		var _isDigit = function(s){
 			return s.value.length !== 0 && !isNaN(parseInt(s.value));
 		};
