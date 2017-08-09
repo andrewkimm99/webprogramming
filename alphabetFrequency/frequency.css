@@ -1,0 +1,11 @@
+svg{
+	border: gray solid 1px;
+	width: 960px;
+	height: 500px;
+}
+.bar{
+	fill:steelblue;
+}
+.bar:hover{
+	fill:brown;
+}

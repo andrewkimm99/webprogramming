@@ -5,33 +5,56 @@
 	var countTime = 0;
 	var stopTimer;
 	var isPlaying = false;
+	var sideLength;
 
 	$(initialize);
 
 	function initialize(){
-		createPuzzle();
+		eightToFour();
 		var cdbutton = document.getElementById("shufflebutton");
 		cdbutton.onclick = shuffle;
-		clearDisplay();
+		cdbutton = document.getElementById("16");
+		cdbutton.onclick = eightToFour;
+		cdbutton = document.getElementById("64");
+		cdbutton.onclick = fourToEight;
+
+		
 
 	}
+	function eightToFour(){
+		sideLength = 4;
+		clear();
+		clearDisplay();
+		createPuzzle();
+		document.getElementById("16").disabled = true;
+		document.getElementById("64").disabled = false;
+	}
+	function fourToEight(){
+		sideLength = 8;
+		clear();
+		clearDisplay();
+		createPuzzle();
+		document.getElementById("16").disabled = false;
+		document.getElementById("64").disabled = true;
+	}
 	function createPuzzle(){
-		for(var i = 0; i <4; i++){
-			for(var j = 0; j < 4; j++){
+		document.getElementById("puzzlearea").innerHTML = "";
+		for(var i = 0; i <sideLength; i++){
+			for(var j = 0; j < sideLength; j++){
 				var div = document.createElement("div");
 				var position = i + " " + j;
 				div.id = position;
 				div.style.float = "left";
 				div.style.border = "black 1px solid";
-				if(i === 3 && j === 3){
+				if(i === sideLength - 1 && j === sideLength - 1){
 					toBlank(div);
-					div.style.fontSize = "40pt";
-					div.style.fontWeight = "bold";
+					//div.style.fontSize = "20pt";
+					//div.style.fontWeight = "bold";
 				}
 				else{
-					toPuzzle(div, 4* i + j +1);
-					div.style.fontSize = "40pt";
-					div.style.fontWeight = "bold";
+					toPuzzle(div, sideLength * i + j +1);
+					//div.style.fontSize = "20pt";
+					//div.style.fontWeight = "bold";
 					
 				}
 				document.getElementById("puzzlearea").appendChild(div);
@@ -53,9 +76,8 @@
 		}
 		clearDisplay();
 		var delta = [[-1,0],[1,0],[0,-1],[0,1]];
-		for(var i = 0; i < 3; i++){
+		for(var i = 0; i < 1; i++){
 			var canMove = [];
-
 			for (var j=0; j<4; j++){
 				var p = [blankPosition[0] + delta[j][0], blankPosition[1] + delta[j][1]];
 				if(inGrid(p)){
@@ -70,7 +92,7 @@
 		isPlaying = true;
 	}
 	function inGrid(pos){
-		return (pos[0]<4 && pos[0] >= 0 && pos[1] < 4 && pos[1] >= 0);
+		return (pos[0]< sideLength && pos[0] >= 0 && pos[1] < sideLength && pos[1] >= 0);
 	}
 	function moveFunction(div, isShuffling){
 		var location = id2pos(div.id);
@@ -118,30 +140,32 @@
 		}
 	}
 	function toBlank(div){
-		div.style.width = "100px";
-		div.style.height = "100px";
+		var blockSize = 400 / sideLength;
+		div.style.width = blockSize + "px";
+		div.style.height = blockSize + "px";
 		div.style.backgroundImage = "";
 		div.style.borderWidth = "0px";
 		div.innerHTML = "";
 	}
 	function toPuzzle(div, content){
-		div.style.width = "90px";
-		div.style.height = "90px";
-		div.style.borderWidth = "5px";
+		var blockSize = 400 / sideLength;
+		div.style.width = blockSize - 6 + "px";
+		div.style.height = blockSize - 6 + "px";
+		div.style.borderWidth = "3px";
 		div.innerHTML = content;
 		div.style.backgroundImage = "url('background.png')";
-		var xpos = Math.floor((content-1) % 4) * -100;
-		var ypos = Math.floor((content-1) / 4) * -100;
+		var xpos = Math.floor((content-1) % sideLength) * -blockSize;
+		var ypos = Math.floor((content-1) / sideLength) * -blockSize;
 		div.style.backgroundPosition = xpos + "px " + ypos + "px";
 
 	}
 
 	function isCorrect(){
 		var count = 1;
-		for(var i = 0; i < 4; i++){
-			for(var j = 0; j < 4; j++){
+		for(var i = 0; i < sideLength; i++){
+			for(var j = 0; j < sideLength; j++){
 				var id = pos2id([i, j]);
-				if( i === 3 && j === 3){
+				if( i === sideLength - 1 && j === sideLength - 1){
 					return true;
 				}
 				if(parseInt(document.getElementById(id).innerHTML) !== count){
