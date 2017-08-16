@@ -74,5 +74,28 @@ Also, if you have extra time, try [this](/assignments/color-main.png). (html & c
 - ring chart에 쓸 색깔 5개 정하기 (전에 알려준 사이트 이용)
 
 
+8/16 D3 Movie Chart II
 
+**homework**
+
+1. 3개의 그래프 중 하나씩 보여주는 드롭다운 만들기
+
+2. stacked bar 완성
+(1) 제목 붙이기
+(2) legend 붙이기
+
+3. scatter chart 완성
+(1) 제목 붙이기, 축 붙이기
+(2) legend 붙이기
+(3) y scale을 log scale로 보여주는 그래프 추가해보기 (linear, log scale 중 하나를 고를수 있도록 드롭다운 하나 더 만들기)
+(4) tooltip 만들기 (mouseover 또는 click event listener 붙여서 만들기)
+
+4. pie chart 만들기: 제목 붙이기
+
+숙제 순서 (중요도 순서)
++ 우선 복습 철저히 하기
++ 1, 2(1), 3(1), 4는 빨리 끝낼 것이므로 먼저 하기
++ 그 다음 3(3)하기 (여기까지는 꼭 금요일 오전까지 하고 커밋 하고 카톡 보내줘!)
++ 마지막으로 2(2), 3(2), 3(4)하기
++ 리팩토링하기 (global variable 잘 빼기 등등) 
 
