@@ -50,7 +50,7 @@
 				.call(d3.axisBottom(x));
 				
 			*/
-
+/*
 			g.append("g")
 				.attr("class", "axis axis-y")
 				.call(d3.axisLeft(y).ticks(10, "%"));
@@ -61,7 +61,7 @@
 				.attr("y", margin.top)
 				.style("font-size", "30pt")
 				.attr("text-anchor", "middle");
-
+*/
 		});
 
 

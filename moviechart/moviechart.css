@@ -10,3 +10,13 @@ body{
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
+.tooltip{
+	position: absolute;
+	padding: 5px;
+	font : 12px sans-serif;
+	color : white;
+	background: #696969;
+	border: 5px;
+	border-radius: 5px;
+	pointer-events: none;
+}

@@ -8,11 +8,25 @@
 
 	<body>
 		<div id = "main-container">
+			<select id = "graphs">
+				<option name = "graph" value = "bar" selected> Bar Graph </option>
+				<option name = "graph" value = "scatter"> Scatter Plot </option>
+				<option name = "graph" value = "pie"> Pie Chart </option>
+			</select>
+
+			<select id = "scatter-graphs">
+				<option name = "graph" value = "linear" selected> Linear Scale </option>
+				<option name = "graph" value = "log"> Log Scale</option>
+			</select>
+
+
+			<br>
 			<div id = "bar-graph-container">
 				<svg id = "bar-graph-svg" width = "500" height = "300"></svg>
 			</div>
 			<div id = "scatter-plot-container">
-				<svg id = "scatter-plot-svg" width = "500" height = "300"></svg>
+				<svg id = "linear-plot-svg" width = "500" height = "300"></svg>
+				<svg id = "log-plot-svg" width = "500" height = "300"></svg>
 			</div>
 			<div id = "pie-chart-container">
 				<svg id = "pie-chart-svg" width = "500" height = "300"></svg>
